@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<div id="header">
+   <div class="container">
+    <nav>
+       <img src="images/logo_img.jpg" class="logo">
+       <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">More</a></li>
+    <li><a href="#">Works</a></li>
+    <li><a href="#">Contact</a></li>
+       </ul> 
+    </nav>
+    <div class="header-text">
+        <p></p>
+        <h1>Hi, I'm <span> Soja Grace Saju </span><br> B-Tech Student</h1>
+    </div>
+   </div> 
+</div>
+<!--------------------about-------------------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+        
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! I am Soja Grace Saju, a Computer Science student with a passion for designing. As a tech-savvy individual, I've developed a strong foundation in web development, but my true expertise lies in creating visually stunning designs. Proficient in tools like Figma, Canva, and more, I bring ideas to life through intuitive and user-friendly interfaces. With a keen eye for detail and a love for innovation, I'm always eager to take on new design challenges. Let's explore my portfolio and see how my skills can help bring your vision to life!</p>
+               <br>
+               <br>
+                <P><h4>Design Skills</h4>
+
+                    - UI/UX Design: Proficient in creating user-centered design solutions
+                    - Figma: Expert-level proficiency in designing and prototyping
+                    - Canva: Advanced skills in graphic design and visual creation
+                    - Visual Design: Strong understanding of color theory, typography, and composition
+                    - Design Systems: Knowledge of creating and maintaining design systems and style guides
+                    <br>
+                    <br>
+                    <h4> Web Development Skills</h4>
+                    
+                    - HTML: Proficient in writing clean and semantic HTML code
+                    - CSS: Skilled in styling and layout with CSS, including responsive design
+                <br>
+                <br>
+
+                    <h4> Soft Skills</h4>
+                    
+                    - Communication: Excellent communication and collaboration skills
+                    - Time Management: Ability to work on multiple projects simultaneously and meet deadlines
+                    - Problem-Solving: Strong problem-solving skills and attention to detail
+                    - Continuous Learning: Passion for staying up-to-date with industry trends and learning new skills</P>
+                 
+                 
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------servces--------------------------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">More about me</h1>
+        <div class="services-list">
+            <div>
+                <h2>Things I'm good at</h2>
+                <p>Expert HTML & CSS Web Developer |</p>
+                <br>
+                <p>UI/UX Design Specialist |</p>
+                <br>
+                <p>Creative Enthusiast |</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Education</h2>
+                <p><h3>HighSchool</h3>Lourdes Mata Central School</p>
+                <br>
+                <p><h3>HigherSecondary</h3>Govt.HSS,Chavara</p>
+                <br>
+                <p><h3>College</h3>College Of Engineering, Knply</p>
+                <br>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Role</h2>
+                <p><h3>Designer</h3>Gaming Club CEk</p>
+                <br>
+                <p><h3>Student Activity Coordinator</h3>Mulearn CEK</p>
+                <br>
+                <p><h3>Execom Member</h3>Foss Club CEK</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------portfolio--------------------------------------------------------------->
+
+<div id="portfolo">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work.jpg">
+                <div class="layer">
+                    <h3>Comming Soon</h3>
+                    <p style="color: black;">kaanikkan onnum ellaaaa </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+             
+            </div>
+             
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------------------contact-------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><h2>Mail Id</h2>sojagracesaju@gmail.com</p>
+                <p><h2>Contact Number</h2>6282192512</p>
+                <p><h2>Linkdn AC</h2>Soja Grace Saju</p>
+                <P><h2>Instagram</h2>@sojagracesaju</P>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+                 </div>
+            <div class="contact-right"> 
+                <form  name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzMmgUaNeGsEayJF6zouGjHNmZWdZ58S8eMQWNFE5GzhFGLyXjEe9KGspg3Q4ewyW4dSA/exec'
+    const form = document.forms['submit-to-google-sheet']
+     const msg= document.getElementById("msg")
+
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>  {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
